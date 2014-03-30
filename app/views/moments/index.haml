@@ -1,0 +1,13 @@
+%h3 Moments
+
+= bootstrap_form_for :moment do |f|
+  = f.text_field :writer
+  = f.text_area :content
+  = f.submit 'Remember'
+
+- @moments.each do |m|
+  %li
+    = m.writer
+    says
+    = m.content
+
