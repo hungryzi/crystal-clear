@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'haml-rails'
 gem 'bootstrap_form', github: 'bootstrap-ruby/rails-bootstrap-forms'
 gem 'bootstrap-sass'
+gem 'bootstrap-sass-extras'
 
 group :development do
   gem 'pry'

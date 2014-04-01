@@ -35,6 +35,8 @@ GEM
     atomic (1.1.16)
     bootstrap-sass (3.1.1.0)
       sass (~> 3.2)
+    bootstrap-sass-extras (0.0.5)
+      rails (>= 3.1.0)
     builder (3.1.4)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -156,6 +158,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  bootstrap-sass-extras
   bootstrap_form!
   capybara
   coffee-rails (~> 4.0.0)
