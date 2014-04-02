@@ -1,0 +1,16 @@
+%h3 Projects
+
+= bootstrap_form_for :project do |f|
+  = f.text_field :name
+  = f.text_field :what
+  = f.text_field :who
+  = f.text_field :where
+  = f.text_field :when
+  = f.text_field :how
+  = f.submit 'Save'
+
+%ul
+  - @projects.each do |p|
+    %li
+      = p.name
+
