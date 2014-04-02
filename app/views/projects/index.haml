@@ -13,4 +13,5 @@
   - @projects.each do |p|
     %li
       = p.name
+      = link_to 'Delete', p, method: :delete, data: {confirm: "Are you reeeeally sure?"}
 
