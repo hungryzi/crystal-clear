@@ -32,13 +32,17 @@ gem 'bootstrap_form', github: 'bootstrap-ruby/rails-bootstrap-forms'
 gem 'bootstrap-sass'
 gem 'bootstrap-sass-extras'
 
-group :development do
+group :development, :test do
   gem 'pry'
+  gem 'pry-nav'
 end
 
 group :test do
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'shoulda-matchers'
+  gem 'faker'
+  gem 'database_cleaner'
 
   gem 'capybara'
   gem 'selenium-webdriver'
